@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Do Not Localize -->
+    <string name="my_prefs_file">MyPrefsFile</string>
+    
+    <!-- Localize -->
+    <string name="app_name">蓝牙语音拨号</string>
+    <string name="prefs_name">蓝牙语音拨号首选项</string>
+    <string name="widget_name">蓝牙语音拨号</string>
+    <string name="button_label">语音拨号</string>
+    <string name="shortcut_name">语音拨号</string>
+    <string name="shortcuts_name">蓝牙语音拨号</string>
+    <string name="no_application">没有应用程序来处理语音命令安装。</string>
+    <string name="no_regular_voicedialer">该VoiceDialer应用没有安装。</string>
+	<string name="bt_turning_on">开启蓝牙...</string>
+    
+    <!-- Preferences -->
+    <string name="pref_title_widget">小工具</string>
+    
+    <string name="pref_title_auto_bluetooth">启用蓝牙</string>
+    <string name="pref_summary_auto_bluetooth">自动打开蓝牙</string>
+    <string name="pref_title_also_launch">同时推出</string>
+    <string name="pref_summary_also_launch">同时推出的蓝牙打开后语音拨号器</string>
+    <string name="pref_title_bluetooth_delay">初始启动延迟</string>
+    <string name="pref_summary_bluetooth_delay">时间（秒），使蓝牙打开拨号器发射之前，</string>
+    <string name="pref_title_regular_dialer">手机语音拨号器</string>
+    <string name="pref_summary_regular_dialer">启动（手机）语音拨号器，当蓝牙关闭</string>
+    
+    <string name="pref_title_media_keys">蓝牙媒体键</string>
+    
+    <string name="pref_title_media_keys_enabled">使用媒体键</string>
+    <string name="pref_summary_media_keys_enabled">蓝牙语音拨号器启动时，媒体键被按下</string>
+    <string name="pref_title_media_play_key">使用播放/暂停键</string>
+    <string name="pref_summary_media_play_key"></string>
+    <string name="pref_title_media_previous">使用前的关键</string>
+    <string name="pref_summary_media_previous"></string>
+    <string name="pref_title_media_next">使用NEXT键</string>
+    <string name="pref_summary_media_next"></string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/pref_title_widget">
+		<CheckBoxPreference android:key="auto_bluetooth"
+			android:defaultValue="false"
+			android:title="@string/pref_title_auto_bluetooth"
+			android:summary="@string/pref_summary_auto_bluetooth" />
+
+<CheckBoxPreference android:key="also_launch"
+android:dependency="auto_bluetooth"
+			android:defaultValue="false"
+			android:title="@string/pref_title_also_launch"
+			android:summary="@string/pref_summary_also_launch" />
+
+		<EditTextPreference
+			android:key="bluetooth_delay"
+			android:dependency="also_launch"
+			android:defaultValue="20"
+			android:title="@string/pref_title_bluetooth_delay"
+			android:summary="@string/pref_summary_bluetooth_delay" />
+		
+		<CheckBoxPreference android:key="regular_dialer"
+			android:defaultValue="false"
+			android:title="@string/pref_title_regular_dialer"
+			android:summary="@string/pref_summary_regular_dialer" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+	android:title="@string/pref_title_media_keys">
+
+		<CheckBoxPreference android:key="media_keys_enabled"
+			android:defaultValue="false"
+			android:title="@string/pref_title_media_keys_enabled"
+			android:summary="@string/pref_summary_media_keys_enabled" />
+			
+					<CheckBoxPreference
+					android:key="media_play_key"
+					android:dependency="media_keys_enabled"
+			android:defaultValue="false"
+			android:title="@string/pref_title_media_play_key"
+			android:summary="@string/pref_summary_media_play_key" />
+			
+								<CheckBoxPreference
+					android:key="media_previous"
+					android:dependency="media_keys_enabled"
+			android:defaultValue="false"
+			android:title="@string/pref_title_media_previous"
+			android:summary="@string/pref_summary_media_previous" />
+			
+								<CheckBoxPreference
+					android:key="media_next"
+					android:dependency="media_keys_enabled"
+			android:defaultValue="false"
+			android:title="@string/pref_title_media_next"
+			android:summary="@string/pref_summary_media_next" />
+				
+	</PreferenceCategory>
+</PreferenceScreen>

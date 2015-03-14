@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Do Not Localize -->
+    <string name="my_prefs_file" translatable="false">MyPrefsFile</string>
+    
+    <!-- Localize -->
+    <string name="app_name">BT Voice Dial</string>
+    <string name="prefs_name">BT Voice Dial Preferences</string>
+    <string name="widget_name">BT Voice Dial</string>
+    <string name="button_label">Voice Dial</string>
+    <string name="shortcut_name">Voice Dial</string>
+    <string name="shortcuts_name">BT Voice Dial</string>
+    <string name="no_application">No application to handle a Voice Command is installed.</string>
+    <string name="no_regular_voicedialer">The VoiceDialer application is not installed.</string>
+	<string name="bt_turning_on">Turning on Bluetooth...</string>
+    
+    <!-- Preferences -->
+    <string name="pref_title_widget">Widget</string>
+    
+    <string name="pref_title_auto_bluetooth">Enable Bluetooth</string>
+    <string name="pref_summary_auto_bluetooth">Automatically turn on Bluetooth</string>
+    <string name="pref_title_also_launch">Also Launch</string>
+    <string name="pref_summary_also_launch">Also launch Voice Dialer after turning on Bluetooth</string>
+    <string name="pref_title_bluetooth_delay">Initial Start Delay</string>
+    <string name="pref_summary_bluetooth_delay">Time (in seconds) to give Bluetooth to turn on, before launching dialer</string>
+    <string name="pref_title_regular_dialer">Handset Voice Dialer</string>
+    <string name="pref_summary_regular_dialer">Launch (handset) Voice Dialer when Bluetooth is off</string>
+    
+    <string name="pref_title_media_keys">Bluetooth Media Keys</string>
+    
+    <string name="pref_title_media_keys_enabled">Use Media Keys</string>
+    <string name="pref_summary_media_keys_enabled">Launch Bluetooth Voice Dialer when a Media Key is pressed</string>
+    <string name="pref_title_media_play_key">Use Play/Pause Key</string>
+    <string name="pref_summary_media_play_key"></string>
+    <string name="pref_title_media_previous">Use Previous Key</string>
+    <string name="pref_summary_media_previous"></string>
+    <string name="pref_title_media_next">Use Next Key</string>
+    <string name="pref_summary_media_next"></string>
+    
+   
+</resources>

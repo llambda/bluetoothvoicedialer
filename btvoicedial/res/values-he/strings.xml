@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Do Not Localize -->
+    <string name="my_prefs_file">MyPrefsFile</string>
+    
+    <!-- Localize -->
+    <string name="app_name">Bluetooth חיוג קולי</string>
+    <string name="prefs_name">חיוג קולי Bluetooth העדפות</string>
+    <string name="widget_name">Bluetooth חיוג קולי</string>
+    <string name="button_label">חיוג קולי</string>
+    <string name="shortcut_name">חיוג קולי</string>
+    <string name="shortcuts_name">Bluetooth חיוג קולי</string>
+    <string name="no_application">היישום לא לטפל פקודה קולית מותקן.</string>
+    <string name="no_regular_voicedialer">היישום VoiceDialer אינו מותקן.</string>
+	<string name="bt_turning_on">הפעלת Bluetooth ...</string>
+    
+    <!-- Preferences -->
+    <string name="pref_title_widget">ווידג ט</string>
+    
+    <string name="pref_title_auto_bluetooth">אפשר Bluetooth</string>
+    <string name="pref_summary_auto_bluetooth">באופן אוטומטי להפעיל את Bluetooth</string>
+    <string name="pref_title_also_launch">גם לשגר</string>
+    <string name="pref_summary_also_launch">גם השקת קול חייגן לאחר הפעלת Bluetooth</string>
+    <string name="pref_title_bluetooth_delay">התחלה התחלתי עיכוב</string>
+    <string name="pref_summary_bluetooth_delay">משך הזמן (בשניות) לתת Bluetooth להפעיל, לפני השקת חייגן</string>
+    <string name="pref_title_regular_dialer">שפופרת חייגן קולי</string>
+    <string name="pref_summary_regular_dialer">הפעלה (המכשיר) קול חייגן כאשר Bluetooth כבוי</string>
+    
+    <string name="pref_title_media_keys">Bluetooth מקשי מדיה</string>
+    
+    <string name="pref_title_media_keys_enabled">השתמש מקשי מדיה</string>
+    <string name="pref_summary_media_keys_enabled">ההשקה Bluetooth קול חייגן כאשר מפתח מדיה נלחץ</string>
+    <string name="pref_title_media_play_key">השתמש Play / Pause מפתח</string>
+    <string name="pref_summary_media_play_key"></string>
+    <string name="pref_title_media_previous">השתמש מפתח הקודם</string>
+    <string name="pref_summary_media_previous"></string>
+    <string name="pref_title_media_next">השתמש המפתח הבא</string>
+    <string name="pref_summary_media_next"></string>
+    
+   
+</resources>

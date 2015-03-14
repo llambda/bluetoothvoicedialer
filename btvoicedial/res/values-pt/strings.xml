@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Do Not Localize -->
+    <string name="my_prefs_file">MyPrefsFile</string>
+    
+    <!-- Localize -->
+    <string name="app_name">Discagem por voz Bluetooth</string>
+    <string name="prefs_name">Preferências de Voz Disque Bluetooth</string>
+    <string name="widget_name">Discagem por voz Bluetooth</string>  
+    <string name="button_label">Marcação por voz</string>
+    <string name="shortcut_name">Marcação por voz</string>
+    <string name="shortcuts_name">Discagem por voz Bluetooth</string>
+    <string name="no_application">Nenhum pedido de lidar com um comando de voz é instalado.</string>
+    <string name="no_regular_voicedialer">A aplicação VoiceDialer não está instalado.</string>
+	<string name="bt_turning_on">Ligar Bluetooth ...</string>
+    
+    <!-- Preferences -->
+    <string name="pref_title_widget">Widget</string>
+    
+    <string name="pref_title_auto_bluetooth">Ativar Bluetooth</string>
+    <string name="pref_summary_auto_bluetooth">Automaticamente ativar o Bluetooth</string>
+    <string name="pref_title_also_launch">Também Lançamento</string>
+    <string name="pref_summary_also_launch">Também o lançamento de Voz Discagem depois de ligar o Bluetooth</string>
+    <string name="pref_title_bluetooth_delay">Delay Start inicial</string>
+    <string name="pref_summary_bluetooth_delay">Tempo (em segundos), para dar Bluetooth para ligar, antes do lançamento do discador</string>
+    <string name="pref_title_regular_dialer">Handset comunicador de voz</string>
+    <string name="pref_summary_regular_dialer">Lançamento (aparelhos) Voice Dialer quando o Bluetooth está desligado</string>
+    
+    <string name="pref_title_media_keys">Teclas de mídia Bluetooth</string>
+    
+    <string name="pref_title_media_keys_enabled">Teclas de mídia Uso</string>
+    <string name="pref_summary_media_keys_enabled">Lançamento Bluetooth Voice Dialer, quando uma peça de mídia é pressionado</string>
+    <string name="pref_title_media_play_key">Use Chave Play/Pause</string>
+    <string name="pref_summary_media_play_key"></string>
+    <string name="pref_title_media_previous">Use Chave Anterior</string>
+    <string name="pref_summary_media_previous"></string>
+    <string name="pref_title_media_next">Use Chave Seguinte</string>
+    <string name="pref_summary_media_next"></string>   
+</resources>

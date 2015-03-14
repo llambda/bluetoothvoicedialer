@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Do Not Localize -->
+    <string name="my_prefs_file">MyPrefsFile</string>
+    
+    <!-- Localize -->
+    <string name="app_name">藍牙語音撥號</string>
+    <string name="prefs_name">藍牙語音撥號首選項</string>
+    <string name="widget_name">藍牙語音撥號</string>
+    <string name="button_label">語音撥號</string>
+    <string name="shortcut_name">語音撥號</string>
+    <string name="shortcuts_name">藍牙語音撥號</string>
+    <string name="no_application">沒有應用程序來處理語音命令安裝。</string>
+    <string name="no_regular_voicedialer">該 VoiceDialer應用沒有安裝。</string>
+	<string name="bt_turning_on">開啟藍牙...</string>
+    
+    <!-- Preferences -->
+    <string name="pref_title_widget">小工具</string>
+    
+    <string name="pref_title_auto_bluetooth">啟用藍牙</string>
+    <string name="pref_summary_auto_bluetooth">自動打開藍牙</string>
+    <string name="pref_title_also_launch">同時推出</string>
+    <string name="pref_summary_also_launch">同時推出語音撥號後打開藍牙</string>
+    <string name="pref_title_bluetooth_delay">初始啟動延遲</string>
+    <string name="pref_summary_bluetooth_delay">時間（秒），使藍牙打開，然後才推出撥號器</string>
+    <string name="pref_title_regular_dialer">手機語音撥號器</string>
+    <string name="pref_summary_regular_dialer">啟動（手機）語音撥號器，當藍牙關閉</string>
+    
+    <string name="pref_title_media_keys">藍牙媒體鍵</string>
+    
+    <string name="pref_title_media_keys_enabled">使用媒體鍵</string>
+    <string name="pref_summary_media_keys_enabled">藍牙語音撥號器啟動時，媒體鍵被按下</string>
+    <string name="pref_title_media_play_key">使用播放/暫停鍵</string>
+    <string name="pref_summary_media_play_key"></string>
+    <string name="pref_title_media_previous">使用前的關鍵</string>
+    <string name="pref_summary_media_previous"></string>
+    <string name="pref_title_media_next">使用NEXT鍵</string>
+    <string name="pref_summary_media_next"></string>
+    
+   
+</resources>

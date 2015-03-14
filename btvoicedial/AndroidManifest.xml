@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="org.gman" android:versionCode="7" android:versionName="1.6">
+	<application android:icon="@drawable/phonebt"
+		android:label="@string/app_name">
+		<receiver android:name=".BTVoiceDial" android:label="@string/widget_name">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+				<action android:name="org.gman.BTVoiceDial.ACTION_WIDGET_RECEIVER" />
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/btvoicedial_widget_provider" />
+		</receiver>
+
+		<receiver android:name=".MediaEventReceiver" android:label="MediaEventReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.MEDIA_BUTTON" />
+			</intent-filter>
+		</receiver>
+
+		<activity android:name=".BTPrefs" android:label="@string/prefs_name"
+			android:configChanges="orientation|keyboardHidden">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".LauncherShortcuts" android:label="@string/shortcuts_name">
+			<intent-filter>
+				<action android:name="android.intent.action.CREATE_SHORTCUT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.CAR_MODE" />
+			</intent-filter>
+		</activity>
+
+	</application>
+	<uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+</manifest>

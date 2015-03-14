@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Do Not Localize -->
+    <string name="my_prefs_file">MyPrefsFile</string>
+    
+    <!-- Localize -->
+    <string name="app_name">Bluetooth marcado por voz</string>
+    <string name="prefs_name">Bluetooth Preferencias de marcado por voz</string>
+    <string name="widget_name">Bluetooth marcado por voz</string>
+    <string name="button_label">Marcación por voz</string>
+    <string name="shortcut_name">Marcación por voz</string>
+    <string name="shortcuts_name">Bluetooth marcado por voz</string>
+    <string name="no_application">No hay ninguna aplicación para manejar un comando de voz está instalado.</string>
+    <string name="no_regular_voicedialer">La aplicación VoiceDialer no está instalado.</string>
+	<string name="bt_turning_on">Encendido de Bluetooth ...</string>
+    
+    <!-- Preferences -->
+    <string name="pref_title_widget">Widget</string>
+    
+    <string name="pref_title_auto_bluetooth">Activar Bluetooth</string>
+    <string name="pref_summary_auto_bluetooth">Automáticamente active Bluetooth</string>
+    <string name="pref_title_also_launch">También lanzamiento</string>
+    <string name="pref_summary_also_launch">También lanzamiento Voice Dialer después de encender Bluetooth</string>
+    <string name="pref_title_bluetooth_delay">Inicio diferido inicial</string>
+    <string name="pref_summary_bluetooth_delay">Tiempo (en segundos) para dar Bluetooth para encender, antes de lanzar marcador</string>
+    <string name="pref_title_regular_dialer">Marcador de voz del auricular</string>
+    <string name="pref_summary_regular_dialer">Lanzamiento (auricular) Voice Dialer cuando Bluetooth está apagado</string>
+    
+    <string name="pref_title_media_keys">Los medios de comunicación Bluetooth Teclas</string>
+    
+    <string name="pref_title_media_keys_enabled">Utilice las teclas de los medios de comunicación</string>
+    <string name="pref_summary_media_keys_enabled">Lanzamiento de voz Bluetooth Dialer cuando una clave de los medios de comunicación se presiona</string>
+    <string name="pref_title_media_play_key">Utilice Reproducir / Pausa clave</string>
+    <string name="pref_summary_media_play_key"></string>
+    <string name="pref_title_media_previous">Utilice clave Anterior</string>
+    <string name="pref_summary_media_previous"></string>
+    <string name="pref_title_media_next">Utilice claves Siguiente</string>
+    <string name="pref_summary_media_next"></string>
+    
+   
+</resources>
